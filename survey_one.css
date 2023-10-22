@@ -1,0 +1,83 @@
+/* Add your CSS styles to the survey form */
+body {
+    font-family: Arial, sans-serif;
+        background-image: url('survey_templates_dribbble-11_4x.png');
+        background-size: cover; /* This scales the image to cover the entire background */
+        background-repeat: repeat; /* Prevents the image from repeating */
+  
+    
+}
+
+#title {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#description {
+    text-align: center;
+    font-size: 16px;
+}
+
+#survey-form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition:background-color .6s ;
+    
+}
+
+select {
+    height: 40px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+#submit {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 1s;
+}
+
+#submit:hover {
+    background-color: #0056b3;
+}
+
+.transparent-box {
+    background-color: rgba(125, 117, 150, 0.5); /* Adjust the alpha value (0.5 in this example) for transparency */
+    padding: 10px; /* Adjust padding as needed */
+    border: 1px solid #070946; /* Optional border */
+  }
+  
+
+  .namee:focus {
+    background-color: rgba(255, 255, 255, 0.5); /* Transparent blue background color on focus */
+
+  }
+
+
